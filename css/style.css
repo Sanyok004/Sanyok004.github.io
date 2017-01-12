@@ -1,0 +1,32 @@
+.logo {
+    height: 135px;
+    width: 400px;
+}
+
+.mindmup {
+    height: 440px;
+    width: 862px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.content > p {
+    /*text-indent: 30px;*/
+}
+
+@media (max-width: 400px) {
+    .logo {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1240px) {
+    .mindmup {
+        width: 100%;
+        height: 100%;
+    }
+}
